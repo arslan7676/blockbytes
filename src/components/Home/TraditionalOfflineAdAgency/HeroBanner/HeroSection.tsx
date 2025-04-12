@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight2 } from "iconsax-react";
 
-import heroImg from "/public/images/hero-img3.png";
+import heroImg from "/public/images/our-experts.png";
 import brand from "/public/images/brand.png";
 import FunFacts from "./FunFacts";
 

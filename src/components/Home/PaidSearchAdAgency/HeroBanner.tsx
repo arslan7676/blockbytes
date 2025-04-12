@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight2 } from "iconsax-react";
 
-import heroImg from "/public/images/hero-img1.png";
+import heroImg from "/public/images/our-experts.png";
 
 const HeroBanner = () => {
   return (
