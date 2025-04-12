@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/services/ai-ml/page": "app/services/ai-ml/page.js",
+  "/services/web-development/page": "app/services/web-development/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
+}
