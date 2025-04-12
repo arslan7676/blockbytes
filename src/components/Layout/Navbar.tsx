@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight2 } from "iconsax-react";
 import Image from "next/image";
-import logo from "/public/images/BlocBytes-black.png";
+import logo from "/public/images/blocbytes-black.png";
 
 const Navbar: React.FC = () => {
 
