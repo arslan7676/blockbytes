@@ -1,4 +1,4 @@
-// File: F:\blocbytes\website\src\app\services\web-development\page.tsx
+// File: F:\newone\blockbytes\src\app\services\web-development\page.tsx
 import * as entry from '../../../../../src/app/services/web-development/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

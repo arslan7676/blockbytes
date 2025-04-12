@@ -1,4 +1,4 @@
-// File: F:\blocbytes\website\src\app\services\ai-ml\page.tsx
+// File: F:\newone\blockbytes\src\app\services\ai-ml\page.tsx
 import * as entry from '../../../../../src/app/services/ai-ml/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
