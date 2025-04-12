@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import aboutImg from "/public/images/about.jpg";
-import brand from "/public/images/brand-black-lg.png";
+import brand from "/public/images/brand.png";
 import shapeImg from "/public/images/shape1.png";
 import adwordImg1 from "/public/images/adword1.png";
 import adwordImg2 from "/public/images/adword2.png";
@@ -71,7 +71,7 @@ const AboutContent = () => {
                 />
 
                 <Image
-                  src={brand}
+                   src={brand}
                   alt="brand"
                   className="absolute bottom-[25px] right-[40px]"
                 />

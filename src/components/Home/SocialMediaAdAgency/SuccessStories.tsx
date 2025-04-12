@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight2 } from "iconsax-react";
 
-import brandBlack from "/public/images/brand-black.png";
+import brandBlack from "/public/images/blocbytes-black.png";
 import successStoriesImg1 from "/public/images/success-stories4.jpg";
 import successStoriesImg2 from "/public/images/success-stories5.jpg";
 import successStoriesImg3 from "/public/images/success-stories6.jpg";
