@@ -18,7 +18,7 @@ const BrandsSlider = () => {
       <div className="py-[50px] md:py-[60px] lg:py-[80px] xl:py-[100px]">
         <div className="container mx-auto">
           <h3 className="text-black text-[20px] font-medium text-center mb-[30px] md:mb-[40px] lg:mb-[50px] xl:mb-[60px]">
-            Increase your brand’s revenue with Adla
+            Increase your brand’s revenue with BlockBytes
           </h3>
 
           <Swiper
