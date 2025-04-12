@@ -7,7 +7,7 @@ import TestimonialsSlider from "@/components/Common/TestimonialsSlider";
 import Footer from "@/components/Layout/Footer";
 import Navbar from "@/components/Layout/Navbar";
 
-export default function ServicesPage() {
+function ServicesPage() {
   return (
     <>
       <div className="gradient-bg">
