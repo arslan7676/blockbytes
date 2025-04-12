@@ -16,7 +16,6 @@ function ServicesPage() {
         <hr className="border-[#E3E3E3]" />
 
         {/* <ServicesHeader />
-
         <ServicesCard /> */}
        
         <OurExpertsStyle2 />
@@ -32,3 +31,5 @@ function ServicesPage() {
     </>
   );
 }
+
+export default ServicesPage;
