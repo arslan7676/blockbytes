@@ -5,7 +5,7 @@ import { ArrowRight2 } from "iconsax-react";
 
 import Image from "next/image";
 
-import pageBanner4 from "/public/images/our-experts.jpg";
+import pageBanner4 from "/public/images/our-experts.png";
 import brand from "/public/images/web.png";
 import shapeImg from "/public/images/shape1.png";
 
