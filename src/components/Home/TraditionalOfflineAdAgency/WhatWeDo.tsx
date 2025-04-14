@@ -9,7 +9,7 @@ const WhatWeDo = () => {
       <div className="py-[50px] md:py-[60px] lg:py-[80px] xl:py-[100px]">
         <div className="container mx-auto">
           {/* Section Header */}
-          <div 
+          <div
             className="relative max-w-[536px] mx-auto text-center mb-[30px] md:mb-[60px]"
             data-aos="fade-up"
             data-aos-delay="100"
@@ -26,7 +26,7 @@ const WhatWeDo = () => {
           </div>
 
           <div className="grid gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
-            <div 
+            <div
               className="bg-white rounded-[20px] py-[50px] px-[35px] border border-[#FAF4F4] hover:bg-[#FAF4F4] transition delay-100 duration-300 ease-in-out"
               data-aos="fade-up"
               data-aos-delay="100"
@@ -61,12 +61,12 @@ const WhatWeDo = () => {
               </div>
 
               <h3 className="text-black text-[20px] md:text-[21px] font-semibold mb-[10px]">
-                Marketing Automation
+                Web Development
               </h3>
               <p>
-                Work closely with clients to understand their business goals,
-                target audience, and budget. Develop a comprehensive
+                Design and develop responsive, scalable, and secure websites that align with your brand identity and deliver a seamless user experience across all devices.
               </p>
+
 
               <Link
                 href="/services/service-details/"
@@ -81,7 +81,7 @@ const WhatWeDo = () => {
               </Link>
             </div>
 
-            <div 
+            <div
               className="bg-white rounded-[20px] py-[50px] px-[35px] border border-[#FAF4F4] hover:bg-[#FAF4F4] transition delay-100 duration-300 ease-in-out"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -116,12 +116,12 @@ const WhatWeDo = () => {
               </div>
 
               <h3 className="text-black text-[20px] md:text-[21px] font-semibold mb-[10px]">
-                Display Advertising
+                Mobile Development
               </h3>
               <p>
-                Work closely with clients to understand their business goals,
-                target audience, and budget. Develop a comprehensive
+                Build high-performance, user-friendly mobile applications tailored to your business needs, ensuring seamless experiences across iOS and Android platforms.
               </p>
+
 
               <Link
                 href="/services/service-details/"
@@ -136,7 +136,7 @@ const WhatWeDo = () => {
               </Link>
             </div>
 
-            <div 
+            <div
               className="bg-white rounded-[20px] py-[50px] px-[35px] border border-[#FAF4F4] hover:bg-[#FAF4F4] transition delay-100 duration-300 ease-in-out"
               data-aos="fade-up"
               data-aos-delay="300"
@@ -167,12 +167,14 @@ const WhatWeDo = () => {
               </div>
 
               <h3 className="text-black text-[20px] md:text-[21px] font-semibold mb-[10px]">
-                Paid Social Media
+                AI
               </h3>
               <p>
-                Work closely with clients to understand their business goals,
-                target audience, and budget. Develop a comprehensive
+                Leverage advanced AI technologies to automate processes,
+                gain data-driven insights, and deliver personalized customer experiences
+                that align with your business goals.
               </p>
+
 
               <Link
                 href="/services/service-details/"
@@ -187,7 +189,7 @@ const WhatWeDo = () => {
               </Link>
             </div>
 
-            <div 
+            <div
               className="bg-white rounded-[20px] py-[50px] px-[35px] border border-[#FAF4F4] hover:bg-[#FAF4F4] transition delay-100 duration-300 ease-in-out"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -275,7 +277,7 @@ const WhatWeDo = () => {
             </div>
           </div>
 
-          <div 
+          <div
             className="text-center max-w-[650px] mx-auto mt-[30px] md:mt-[40px] lg:mt-[40px] xl:mt-[60px]"
             data-aos="fade-up"
             data-aos-delay="500"
@@ -283,10 +285,12 @@ const WhatWeDo = () => {
             data-aos-once="true"
           >
             <p>
-              Transforming your brand's online presence and generating
-              meaningful results is our top priority at <strong>Blocbytes</strong>.
-              As a leading paid search ad agency.
+              At <strong>Blocbytes</strong>, we harness 
+              cutting-edge technology to build innovative digital solutions 
+              that elevate your brand and drive real results. As a forward-thinking
+               tech company, your growth is our mission.
             </p>
+
             <Link
               href="/about-us/"
               className="font-medium text-black uppercase transition duration-500 ease-in-out inline-block hover:text-[#EF4335] mt-[20px]"
