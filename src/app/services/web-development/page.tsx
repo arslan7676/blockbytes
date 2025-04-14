@@ -89,7 +89,7 @@ const webDevelopmentIndustries = {
                 link: "/services/cloud-migration"
             },
             {
-                name: "E-Commerce",
+                name: "Commerce",
                 description: " ",
                 image: "commerce",
                 link: "/services/cloud-migration"
