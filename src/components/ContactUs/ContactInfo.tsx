@@ -12,7 +12,9 @@ const ContactInfo = () => {
             <div className="shrink-0 bg-[#4C4C4C] text-[#EF4335] w-[48px] h-[48px] leading-[50px] text-[25px] inline-block text-center rounded-full">
               <i className="bx bxs-map"></i>
             </div>
-            <p>2750 Quadra Street Victoria Road, New York, USA</p>
+            <p>HEAD OFFICE
+
+              12 S Atlantic Ave, Aberdeen Township, 07747</p>
           </div>
         </div>
 
@@ -25,11 +27,11 @@ const ContactInfo = () => {
               <i className="bx bxs-phone"></i>
             </div>
             <div>
-              <a href="tel:1234567898" className="block hover:text-[#EF4335]">
-                (+123) 456-7898
+              <a href="+18483458762" className="block hover:text-[#EF4335]">
+              +18483458762
               </a>
-              <a href="tel:1234567899" className="block hover:text-[#EF4335]">
-                (+123) 456-7899
+              <a href="+18483458762" className="block hover:text-[#EF4335]">
+              +18483458762
               </a>
             </div>
           </div>
@@ -48,13 +50,13 @@ const ContactInfo = () => {
                 href="mailto:support@adla.com"
                 className="block hover:text-[#EF4335]"
               >
-                support@adla.com
+                info@blocbytes.com
               </a>
               <a
                 href="mailto:info@adla.com"
                 className="block hover:text-[#EF4335]"
               >
-                info@adla.com
+              info@blocbytes.com
               </a>
             </div>
           </div>

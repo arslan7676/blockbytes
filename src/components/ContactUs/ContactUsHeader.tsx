@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import pageBanner4 from "/public/images/page-banner4.png";
+import pageBanner4 from "/public/images/fun-facts.jpg";
 
 const ContactUsHeader = () => {
   return (
@@ -21,10 +21,10 @@ const ContactUsHeader = () => {
               </h2>
 
               <p>
-                Transforming your brand's online presence and generating
-                meaningful results is our top priority at{" "}
-                <strong>Adla</strong>. As a leading paid search ad agency.
+                Driving innovation and delivering impactful digital solutions is our top priority at
+                <strong>BlocBytes</strong>. As a forward-thinking tech company, we empower businesses to thrive in the digital era.
               </p>
+
             </div>
 
             <div>
