@@ -24,7 +24,7 @@ const Cta = () => {
 
             <div className="lg:text-end lg:rtl:text-right lg:max-w-[412px] lg:ml-auto lg:rtl:ml-0 lg:rtl:mr-auto">
               <p className="mb-[20px]">
-                The team at Adla continuously monitors and optimizes our
+                The team at BlocBytes continuously monitors and optimizes our
                 campaigns, keeping us ahead of the competition. Urgent need?
                 call us
               </p>

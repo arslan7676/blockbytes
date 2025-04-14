@@ -95,7 +95,7 @@ const Sidebar = () => {
             href="/services/service-details/"
             className="font-semibold text-black flex items-center justify-between underline hover:text-[#EF4335]"
           >
-            Google Ads{" "}
+            Amazon & E-commrace  {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -116,7 +116,7 @@ const Sidebar = () => {
             href="/services/service-details/"
             className="font-semibold text-black flex items-center justify-between underline hover:text-[#EF4335]"
           >
-            Microsoft Ads{" "}
+            Web Dvelopment{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -137,7 +137,7 @@ const Sidebar = () => {
             href="/services/service-details/"
             className="font-semibold text-black flex items-center justify-between underline hover:text-[#EF4335]"
           >
-            Social Media Ads{" "}
+            Mobile Development{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -158,7 +158,7 @@ const Sidebar = () => {
             href="/services/service-details/"
             className="font-semibold text-black flex items-center justify-between underline hover:text-[#EF4335]"
           >
-            Shopping Campaign{" "}
+            AI/ML{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

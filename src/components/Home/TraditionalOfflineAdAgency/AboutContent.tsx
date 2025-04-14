@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight2 } from "iconsax-react";
 import Image from "next/image";
 
-import aboutImg from "/public/images/about-2.png";
+import aboutImg from "/public/images/ai-ml.png";
 import BorderLine from "@/components/Common/BorderLine";
 import BrandsSlider from "@/components/Common/BrandsSlider";
 
