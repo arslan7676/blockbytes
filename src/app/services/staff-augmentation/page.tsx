@@ -72,7 +72,7 @@ const webDevelopmentIndustries = {
             {
                 name: "Uncompromising Quality",
                 description: " Avoid battery-draining apps by trusting BlocBytes' quality standards. As a leading mobile app development company, we deliver bug-free, high-performing, stable, and user-friendly mobile apps.",
-                image: "commerce",
+                image: "realestate",
                 link: "/services/cloud-migration"
             },
             {
