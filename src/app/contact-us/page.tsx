@@ -16,7 +16,7 @@ export default function ContactUsPage() {
 
         <ContactForm />
 
-        <FaqContent />
+        {/* <FaqContent /> */}
       </div>
 
       <Footer />
