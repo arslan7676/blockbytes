@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowRight2 } from "iconsax-react";
 
 import heroImg from "/public/images/our-experts.png";
-import brand from "/public/images/brand.png";
+import brand from "/public/images/our-experts.png";
 import FunFacts from "./FunFacts";
 
 const HeroBanner = () => {
