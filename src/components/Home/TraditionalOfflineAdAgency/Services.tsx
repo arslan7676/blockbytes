@@ -60,7 +60,7 @@ const Services: React.FC = () => {
                     }`}
                 >
                   Mobile Development
-                  {/* <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
+                  <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="19"
@@ -74,7 +74,7 @@ const Services: React.FC = () => {
                         fill="#EF4335"
                       />
                     </svg>
-                  </div> */}
+                  </div>
                 </li>
 
                 <li
@@ -184,28 +184,23 @@ const Services: React.FC = () => {
                     data-aos-once="true"
                   >
                     <h3 className="text-[20px] md:text-[22px] lg:text-[22px] xl:text-[36px] font-semibold">
-                      Print Advertising
+                      Mobile Development
                     </h3>
 
                     <p>
-                      Work closely with clients to understand their business
-                      goals, target audience, and budget. Develop a
-                      comprehensive paid search strategy
+                      Collaborate with clients to define app goals, target users, and platform preferences. We craft mobile strategies tailored to deliver intuitive, high-performance apps.
                     </p>
 
                     <Image
                       src={serviceImg1}
-                      alt="service"
+                      alt="Mobile Development Service"
                       className="rounded-[20px]"
                     />
 
                     <p>
-                      We excel in designing and producing captivating print ads
-                      that appear in newspapers, magazines, brochures, flyers,
-                      and other print media. Our team ensures that your brand
-                      message stands out and leaves a lasting impression on your
-                      target audience.
+                      Our team specializes in building responsive, feature-rich mobile applications for iOS and Android. From concept to launch, we ensure seamless user experiences, strong performance, and scalable architecture that supports your business growth.
                     </p>
+
 
                     <Link
                       href="/services/service-details/"
@@ -239,28 +234,23 @@ const Services: React.FC = () => {
                     data-aos-once="true"
                   >
                     <h3 className="text-[20px] md:text-[22px] lg:text-[22px] xl:text-[36px] font-semibold">
-                      Outdoor Advertising
+                      Web Development
                     </h3>
 
                     <p>
-                      Work closely with clients to understand their business
-                      goals, target audience, and budget. Develop a
-                      comprehensive paid search strategy
+                      Collaborate closely with clients to understand their brand, audience, and digital objectives. We craft tailored web solutions that align with your vision and goals.
                     </p>
 
                     <Image
                       src={serviceImg2}
-                      alt="service"
+                      alt="Web Development Service"
                       className="rounded-[20px]"
                     />
 
                     <p>
-                      We excel in designing and producing captivating print ads
-                      that appear in newspapers, magazines, brochures, flyers,
-                      and other print media. Our team ensures that your brand
-                      message stands out and leaves a lasting impression on your
-                      target audience.
+                      Our team excels in designing and developing responsive, scalable, and secure websites using modern technologies. Whether it's a marketing site or a dynamic web application, we ensure your online presence delivers both performance and impact.
                     </p>
+
 
                     <Link
                       href="/services/service-details/"
@@ -294,28 +284,23 @@ const Services: React.FC = () => {
                     data-aos-once="true"
                   >
                     <h3 className="text-[20px] md:text-[22px] lg:text-[22px] xl:text-[36px] font-semibold">
-                      Direct Mail Marketing
+                      AI & Machine Learning
                     </h3>
 
                     <p>
-                      Work closely with clients to understand their business
-                      goals, target audience, and budget. Develop a
-                      comprehensive paid search strategy
+                      Partner with clients to identify opportunities where AI and ML can solve complex problems, automate processes, and unlock data-driven growth strategies.
                     </p>
 
                     <Image
                       src={serviceImg3}
-                      alt="service"
+                      alt="AI & Machine Learning Service"
                       className="rounded-[20px]"
                     />
 
                     <p>
-                      We excel in designing and producing captivating print ads
-                      that appear in newspapers, magazines, brochures, flyers,
-                      and other print media. Our team ensures that your brand
-                      message stands out and leaves a lasting impression on your
-                      target audience.
+                      We specialize in developing intelligent systems that learn and adapt—from predictive analytics and recommendation engines to natural language processing and computer vision. Our solutions are built to scale, giving your business a competitive edge through smart automation and advanced insights.
                     </p>
+
 
                     <Link
                       href="/services/service-details/"
@@ -349,28 +334,23 @@ const Services: React.FC = () => {
                     data-aos-once="true"
                   >
                     <h3 className="text-[20px] md:text-[22px] lg:text-[22px] xl:text-[36px] font-semibold">
-                      Event Marketing
+                      Amazon & E-commerce Solutions
                     </h3>
 
                     <p>
-                      Work closely with clients to understand their business
-                      goals, target audience, and budget. Develop a
-                      comprehensive paid search strategy
+                      Collaborate with clients to optimize their online storefronts, understand target customers, and create strategies that drive visibility and conversion across e-commerce platforms.
                     </p>
 
                     <Image
                       src={serviceImg4}
-                      alt="service"
+                      alt="Amazon & E-commerce Service"
                       className="rounded-[20px]"
                     />
 
                     <p>
-                      We excel in designing and producing captivating print ads
-                      that appear in newspapers, magazines, brochures, flyers,
-                      and other print media. Our team ensures that your brand
-                      message stands out and leaves a lasting impression on your
-                      target audience.
+                      We specialize in setting up, managing, and scaling e-commerce operations on platforms like Amazon, Shopify, and WooCommerce. From product listing optimization and SEO to inventory management and performance analytics, our team helps your brand grow and thrive in the competitive online marketplace.
                     </p>
+
 
                     <Link
                       href="/services/service-details/"
@@ -404,28 +384,23 @@ const Services: React.FC = () => {
                     data-aos-once="true"
                   >
                     <h3 className="text-[20px] md:text-[22px] lg:text-[22px] xl:text-[36px] font-semibold">
-                      Radio Advertising
+                      Blockchain & Web 3.0 Solutions
                     </h3>
 
                     <p>
-                      Work closely with clients to understand their business
-                      goals, target audience, and budget. Develop a
-                      comprehensive paid search strategy
+                      Collaborate with clients to explore decentralized technologies, define use cases, and develop secure, future-ready strategies for blockchain and Web 3.0 adoption.
                     </p>
 
                     <Image
                       src={serviceImg5}
-                      alt="service"
+                      alt="Blockchain & Web 3.0 Service"
                       className="rounded-[20px]"
                     />
 
                     <p>
-                      We excel in designing and producing captivating print ads
-                      that appear in newspapers, magazines, brochures, flyers,
-                      and other print media. Our team ensures that your brand
-                      message stands out and leaves a lasting impression on your
-                      target audience.
+                      We specialize in building decentralized applications (dApps), smart contracts, NFTs, and blockchain integrations that enable transparent, trustless systems. Our Web 3.0 solutions empower businesses with enhanced security, ownership, and user control in a rapidly evolving digital landscape.
                     </p>
+
 
                     <Link
                       href="/services/service-details/"
