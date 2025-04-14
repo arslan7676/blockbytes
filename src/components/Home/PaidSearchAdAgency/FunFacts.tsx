@@ -3,7 +3,6 @@
 import Image from "next/image";
 
 import funFactsImg from "/public/images/fun-facts.jpg";
-import brandImg from "/public/images/brand.png";
 
 const FunFacts = () => {
   return (
@@ -49,11 +48,6 @@ const FunFacts = () => {
                   src={funFactsImg}
                   alt="Fun Facts Img"
                   className="rounded-r-[20px] rtl:rounded-l-[20px]"
-                />
-                <Image
-                  src={brandImg}
-                  alt="Brand Img"
-                  className="absolute bottom-[15px] sm:bottom-[30px] right-[15px] sm:right-[40px] max-w-[60px] md:max-w-[125px]"
                 />
               </div>
             </div>
