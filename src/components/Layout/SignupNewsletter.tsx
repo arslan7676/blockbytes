@@ -12,11 +12,9 @@ const SignupNewsletter = () => {
         data-aos-duration="600"
         data-aos-once="true"
       >
-        <h3 className="text-black font-semibold text-[20px] md:text-[22px] mb-[20px]">
-          Signup Newsletter
-        </h3>
+       
 
-        <form className="mb-[20px]">
+        {/* <form className="mb-[20px]">
           <input
             type="email"
             placeholder="Email Address"
@@ -35,7 +33,7 @@ const SignupNewsletter = () => {
               size={20}
             />
           </button>
-        </form>
+        </form> */}
 
         {/* SocialLinks */}
         <SocialLinks />
