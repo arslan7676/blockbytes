@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 
-import aboutImg from "/public/images/about.jpg";
-import brand from "/public/images/brand.png";
+import aboutImg from "/public/images/our-experts.png";
 import shapeImg from "/public/images/shape1.png";
 import adwordImg1 from "/public/images/adword1.png";
 import adwordImg2 from "/public/images/adword2.png";
@@ -20,7 +19,7 @@ const AboutContent = () => {
             <div className="lg:pr-[60px] rtl:lg:pr-0 rtl:lg:pl-[60px] xl:pr-[120px] rtl:xl:pr-0 rtl:xl:pl-[120px]">
               <div className="mb-[20px] md:mb-[20px] lg:md:mb-[50px]">
                 <h4 className="text-black uppercase text-[15px] md:text-[17px] font-medium mb-[15px]">
-                  Award Winning Agency
+                  Award Winning Tech Company
                 </h4>
 
                 <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] mb-[15px] md:mb-[30px]">
@@ -29,9 +28,7 @@ const AboutContent = () => {
                 </h2>
 
                 <p>
-                  Transforming your brand's online presence and generating
-                  meaningful results is our top priority at{" "}
-                  <strong>Adla</strong>. As a leading paid search ad agency,
+                BlocBytes isn't just about tech, it's about partnership. We bring trust, innovation and a future-focused mindset to everything we do. Whether you're a startup or an established business, we’re here to help you grow and lead in FinTech, Blockchain, and Web 3.0. Together, let’s shape the future, one byte at a time
                 </p>
               </div>
 
@@ -68,12 +65,6 @@ const AboutContent = () => {
                   src={aboutImg}
                   alt="About"
                   className="rounded-[20px] relative"
-                />
-
-                <Image
-                   src={brand}
-                  alt="brand"
-                  className="absolute bottom-[25px] right-[40px]"
                 />
                 <Image
                   src={shapeImg}
