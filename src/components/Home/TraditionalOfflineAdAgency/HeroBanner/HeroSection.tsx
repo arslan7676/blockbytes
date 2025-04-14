@@ -57,7 +57,7 @@ const HeroBanner = () => {
 
             {/* Hero Image */}
             <div 
-              className="relative sm:mt-[30px] md:mt-[40px] lg:mt-[0]"
+              className="relative sm:mt-[10px] md:mt-[10px] lg:mt-[0]"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="600"
