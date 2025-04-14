@@ -17,7 +17,7 @@ export default function TraditionalOfflineAdAgency() {
     <>
       <TopHeader />
 
-      <Navbar/>
+      <Navbar />
 
       <HeroSection />
 
@@ -38,7 +38,7 @@ export default function TraditionalOfflineAdAgency() {
 
       <CallToAction />
 
-      <Footer/>
+      <Footer />
     </>
   );
 }

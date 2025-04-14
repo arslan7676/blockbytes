@@ -20,7 +20,7 @@ const CallToAction = () => {
 
             <div className="lg:text-end rtl:lg:text-right lg:max-w-[412px] lg:ml-auto rtl:lg:ml-0 rtl:lg:mr-auto">
               <p className="text-white mb-[20px]">
-                The team at Adla continuously monitors and optimizes our
+                The team at BlocBytes continuously monitors and optimizes our
                 campaigns, keeping us ahead of the competition. Urgent need?
                 call us
               </p>
@@ -30,7 +30,7 @@ const CallToAction = () => {
                   href="tel:+1-485-456-0102"
                   className="underline hover:no-underline hover:text-[#000]"
                 >
-                  +1-485-456-0102
+                  +18483458762
                 </a>
               </h4>
 
