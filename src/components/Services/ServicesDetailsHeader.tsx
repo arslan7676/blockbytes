@@ -1,13 +1,13 @@
 "use client";
 
-import Link from "next/link"; 
+import Link from "next/link";
 import { ArrowRight2 } from "iconsax-react";
 
 import Image from "next/image";
 
-import pageBanner4 from "/public/images/page-banner4.jpg";
-import brand from "/public/images/brand-white-lg.png";
-import shapeImg from "/public/images/shape1.png"; 
+import pageBanner4 from "/public/images/our-experts.jpg";
+import brand from "/public/images/web.png";
+import shapeImg from "/public/images/shape1.png";
 
 const ServicesDetailsHeader = () => {
   return (
@@ -17,19 +17,17 @@ const ServicesDetailsHeader = () => {
           <div className="grid items-center gap-[30px] grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <div className="lg:pr-[60px] rtl:lg:pr-0 rtl:lg:pl-[60px] xl:pr-[120px] rtl:xl:pr-0 rtl:xl:pl-[120px]">
               <h4 className="text-black uppercase text-[15px] md:text-[17px] font-medium mb-[15px]">
-                Award Winning Agency
+                Award-Winning Tech Company
               </h4>
 
               <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] mb-[15px] md:mb-[30px]">
-                Drive traffic, generate leads, achieve success with our paid
-                search services!
+                Build smarter, scale faster, and innovate boldly with BlocBytes solutions!
               </h2>
 
               <p>
-                Transforming your brand's online presence and generating
-                meaningful results is our top priority at{" "}
-                <strong>BlocBytes</strong>. As a leading paid search ad agency,
+                Empowering your brand through cutting-edge technology and innovative digital solutions is our mission at <strong>BlocBytes</strong>. As a leading tech company, we help businesses thrive in an ever-evolving digital world.
               </p>
+
 
               <Link
                 href="/contact-us/"
@@ -61,7 +59,7 @@ const ServicesDetailsHeader = () => {
                   alt="shape"
                   className="absolute top-0 left-[-78px] rtl:left-auto rtl:right-[-78px] hidden lg:block"
                 />
-              </div> 
+              </div>
             </div>
           </div>
         </div>
