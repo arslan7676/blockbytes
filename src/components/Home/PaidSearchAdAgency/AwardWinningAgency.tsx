@@ -20,7 +20,7 @@ const AwardWinningAgency = () => {
               <Image src={trophy} alt="trophy" className="mx-auto" />
 
               <h3 className="text-black font-medium text-[18px]">
-                Award Winning Agency
+                Award Winning Tech Company
               </h3>
             </div>
 
@@ -122,7 +122,7 @@ const AwardWinningAgency = () => {
               </h3>
 
               <p className="text-[#4C4C4C] font-semibold text-[16px] md:text-[18px] mb-[10px] md:mb-[20px]">
-                Ads
+                Projects
               </p>
 
               <p>Already Created</p>

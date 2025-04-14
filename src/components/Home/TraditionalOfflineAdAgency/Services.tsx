@@ -6,11 +6,11 @@ import { ArrowRight2 } from "iconsax-react";
 import Image from "next/image";
 
 import shapeImg1 from "/public/images/shape1.png";
-import serviceImg1 from "/public/images/service-1.jpg";
-import serviceImg2 from "/public/images/service-2.jpg";
-import serviceImg3 from "/public/images/service-3.jpg";
-import serviceImg4 from "/public/images/service-4.jpg";
-import serviceImg5 from "/public/images/service-5.jpg";
+import serviceImg1 from "/public/images/mobile-development.png";
+import serviceImg2 from "/public/images/web.png";
+import serviceImg3 from "/public/images/ai-ml.png";
+import serviceImg4 from "/public/images/amazon.png";
+import serviceImg5 from "/public/images/blockchain.png";
 
 const Services: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -24,7 +24,7 @@ const Services: React.FC = () => {
       <div className="pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[100px]">
         <div className="container mx-auto">
           {/* Section Header */}
-          <div 
+          <div
             className="text-center max-w-[650px] mx-auto mb-[30px] md:mb-[50px] lg:mb-[60px]"
             data-aos="fade-up"
             data-aos-delay="100"
@@ -36,9 +36,8 @@ const Services: React.FC = () => {
             </h4>
 
             <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2]">
-              Offline Ad Agency, Redefining the Essence of True Brand Engagement
+              Tech Company, Redefining the Essence of Digital Innovation and Impact
             </h2>
-
             <Link
               href="/services"
               className="bg-black text-white text-[13px] md:text-[14px] font-medium inline-block uppercase rounded-full py-[15px] px-[25px] md:px-[38px] transition duration-500 ease-in-out hover:bg-[#EF4335] mt-[25px] md:mt-[30px]"
@@ -57,11 +56,10 @@ const Services: React.FC = () => {
               <ul className="space-y-[20px]">
                 <li
                   onClick={() => handleTabClick(0)}
-                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${
-                    activeTab === 0 ? "bg-white text-black" : "text-white"
-                  }`}
+                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${activeTab === 0 ? "bg-white text-black" : "text-white"
+                    }`}
                 >
-                  Print Advertising
+                  Mobile Development
                   <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -81,11 +79,10 @@ const Services: React.FC = () => {
 
                 <li
                   onClick={() => handleTabClick(1)}
-                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${
-                    activeTab === 1 ? "bg-white text-black" : "text-white"
-                  }`}
+                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${activeTab === 1 ? "bg-white text-black" : "text-white"
+                    }`}
                 >
-                  Outdoor Advertising
+                  Web Development
                   <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -105,11 +102,10 @@ const Services: React.FC = () => {
 
                 <li
                   onClick={() => handleTabClick(2)}
-                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${
-                    activeTab === 2 ? "bg-white text-black" : "text-white"
-                  }`}
+                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${activeTab === 2 ? "bg-white text-black" : "text-white"
+                    }`}
                 >
-                  Direct Mail Marketing
+                  AI/ML
                   <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -129,11 +125,10 @@ const Services: React.FC = () => {
 
                 <li
                   onClick={() => handleTabClick(3)}
-                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${
-                    activeTab === 3 ? "bg-white text-black" : "text-white"
-                  }`}
+                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${activeTab === 3 ? "bg-white text-black" : "text-white"
+                    }`}
                 >
-                  Event Marketing
+                  Amazon & E-Commerce
                   <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -153,11 +148,10 @@ const Services: React.FC = () => {
 
                 <li
                   onClick={() => handleTabClick(4)}
-                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${
-                    activeTab === 4 ? "bg-white text-black" : "text-white"
-                  }`}
+                  className={` cursor-pointer border border-[#E8E8E8] rounded-full font-semibold text-16px md:text-[20px] lg:text-[17px] xl:text-[20px] py-[10px] pl-[30px] rtl:pl-[10px] pr-[10px] flex items-center justify-between ${activeTab === 4 ? "bg-white text-black" : "text-white"
+                    }`}
                 >
-                  Radio Advertising
+                  Blockchain & Web3.0
                   <div className="bg-[#FAF4F4] rounded-full w-[40px] md:w-[46px] h-[40px] md:h-[46px] leading-[35px] md:leading-[40px] text-center shrink-0">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +175,7 @@ const Services: React.FC = () => {
             <div className="bg-[#EF4335] rounded-0 lg:rounded-r-[20px] rtl:lg:rounded-r-[0] rtl:lg:rounded-l-[20px] lg:col-span-2">
               {activeTab === 0 && (
                 <>
-                  <div 
+                  <div
                     className="relative px-[20px] md:px-[50px] lg:px-[60px] xl:px-[100px] py-[50px] md:py-[80px] lg:py-[100px] text-white space-y-[20px]"
 
                     data-aos="fade-up"
@@ -236,7 +230,7 @@ const Services: React.FC = () => {
               )}
               {activeTab === 1 && (
                 <>
-                  <div 
+                  <div
                     className="relative px-[20px] md:px-[50px] lg:px-[60px] xl:px-[100px] py-[50px] md:py-[80px] lg:py-[100px] text-white space-y-[20px]"
 
                     data-aos="fade-up"
@@ -291,7 +285,7 @@ const Services: React.FC = () => {
               )}
               {activeTab === 2 && (
                 <>
-                  <div 
+                  <div
                     className="relative px-[20px] md:px-[50px] lg:px-[60px] xl:px-[100px] py-[50px] md:py-[80px] lg:py-[100px] text-white space-y-[20px]"
 
                     data-aos="fade-up"
@@ -346,7 +340,7 @@ const Services: React.FC = () => {
               )}
               {activeTab === 3 && (
                 <>
-                  <div 
+                  <div
                     className="relative px-[20px] md:px-[50px] lg:px-[60px] xl:px-[100px] py-[50px] md:py-[80px] lg:py-[100px] text-white space-y-[20px]"
 
                     data-aos="fade-up"
@@ -401,7 +395,7 @@ const Services: React.FC = () => {
               )}
               {activeTab === 4 && (
                 <>
-                  <div 
+                  <div
                     className="relative px-[20px] md:px-[50px] lg:px-[60px] xl:px-[100px] py-[50px] md:py-[80px] lg:py-[100px] text-white space-y-[20px]"
 
                     data-aos="fade-up"
