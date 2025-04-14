@@ -124,7 +124,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
+        <SignupNewsletter />
         {/* Bottom Footer */}
         <div className="py-[30px]">
           <div className="grid items-center gap-[15px] md:gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">

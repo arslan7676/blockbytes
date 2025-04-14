@@ -284,7 +284,7 @@ const WhatWeDo = () => {
           >
             <p>
               Transforming your brand's online presence and generating
-              meaningful results is our top priority at <strong>Adla</strong>.
+              meaningful results is our top priority at <strong>Blocbytes</strong>.
               As a leading paid search ad agency.
             </p>
             <Link

@@ -108,23 +108,8 @@ const FooterStyleTwo = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="hover:text-[#EF4335]">
-                      Partnerships
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#" className="hover:text-[#EF4335]">
-                      Awards
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="/contact-us/" className="hover:text-[#EF4335]">
                       Get A Proposal
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact-us/" className="hover:text-[#EF4335]">
-                      Free Audit
                     </Link>
                   </li>
                 </ul>

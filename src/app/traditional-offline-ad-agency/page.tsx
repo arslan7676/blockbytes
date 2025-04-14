@@ -11,8 +11,7 @@ import SuccessStories from "@/components/Home/TraditionalOfflineAdAgency/Success
 import OurExperts from "@/components/Common/OurExperts";
 import OurBlog from "@/components/Common/OurBlog";
 import CallToAction from "@/components/Common/CallToAction";
-import FooterStyleTwo from "@/components/Layout/FooterStyleTwo";
-
+import Footer from "@/components/Layout/Footer";
 export default function TraditionalOfflineAdAgency() {
   return (
     <>
@@ -39,7 +38,7 @@ export default function TraditionalOfflineAdAgency() {
 
       <CallToAction />
 
-      <FooterStyleTwo />
+      <Footer/>
     </>
   );
 }
