@@ -39,7 +39,7 @@ const TestimonialsSlider = () => {
                   </h4>
 
                   <q className="italic text-[18px] font-medium color-[#4C4C4C]">
-                    We have been partnering with Adla for our paid search
+                    We have been partnering with <strong>BlocBytes</strong> for our paid search
                     advertising needs, and they have consistently exceeded our
                     expectations.
                   </q>
@@ -68,7 +68,7 @@ const TestimonialsSlider = () => {
                   </h4>
 
                   <q className="italic text-[18px] font-medium color-[#4C4C4C]">
-                    We have been partnering with Adla for our paid search
+                    We have been partnering with <strong>BlocBytes</strong> for our paid search
                     advertising needs, and they have consistently exceeded our
                     expectations.
                   </q>
@@ -97,7 +97,7 @@ const TestimonialsSlider = () => {
                   </h4>
 
                   <q className="italic text-[18px] font-medium color-[#4C4C4C]">
-                    We have been partnering with Adla for our paid search
+                    We have been partnering with BlocBytes for our paid search
                     advertising needs, and they have consistently exceeded our
                     expectations.
                   </q>

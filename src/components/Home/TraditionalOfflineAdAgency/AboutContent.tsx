@@ -45,7 +45,7 @@ const AboutContent = () => {
                   <p>
                     Transforming your brand's online presence and generating
                     meaningful results is our top priority at{" "}
-                    <strong>Adla</strong>. As a leading paid search ad agency.
+                    <strong>BlocBytes</strong>. As a leading paid search ad agency.
                   </p>
                 </div>
 
