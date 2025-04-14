@@ -2,12 +2,13 @@
   "name": "blockbytes",
   "version": "1.3",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "postinstall": "chmod +x node_modules/.bin/next"
+},
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
     "@types/aos": "^3.0.6",
