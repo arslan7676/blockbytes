@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about-us",
+      "regex": "^/about\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-us(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-details",
+      "regex": "^/blog/blog\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-details(?:/)?$"
+    },
+    {
+      "page": "/careers",
+      "regex": "^/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers(?:/)?$"
+    },
+    {
+      "page": "/careers/career-details",
+      "regex": "^/careers/career\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers/career\\-details(?:/)?$"
+    },
+    {
+      "page": "/contact-us",
+      "regex": "^/contact\\-us(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact\\-us(?:/)?$"
+    },
+    {
+      "page": "/customers-review",
+      "regex": "^/customers\\-review(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/customers\\-review(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/services/ai-ml",
+      "regex": "^/services/ai\\-ml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/ai\\-ml(?:/)?$"
+    },
+    {
+      "page": "/services/amazon-&-e-commerce",
+      "regex": "^/services/amazon\\-&\\-e\\-commerce(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/amazon\\-&\\-e\\-commerce(?:/)?$"
+    },
+    {
+      "page": "/services/blockchain-&-web3.0",
+      "regex": "^/services/blockchain\\-&\\-web3\\.0(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/blockchain\\-&\\-web3\\.0(?:/)?$"
+    },
+    {
+      "page": "/services/cloud-computing",
+      "regex": "^/services/cloud\\-computing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/cloud\\-computing(?:/)?$"
+    },
+    {
+      "page": "/services/gis-solutions",
+      "regex": "^/services/gis\\-solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/gis\\-solutions(?:/)?$"
+    },
+    {
+      "page": "/services/mobile-development",
+      "regex": "^/services/mobile\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/mobile\\-development(?:/)?$"
+    },
+    {
+      "page": "/services/service-details",
+      "regex": "^/services/service\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/service\\-details(?:/)?$"
+    },
+    {
+      "page": "/services/staff-augmentation",
+      "regex": "^/services/staff\\-augmentation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/staff\\-augmentation(?:/)?$"
+    },
+    {
+      "page": "/services/web-development",
+      "regex": "^/services/web\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/web\\-development(?:/)?$"
+    },
+    {
+      "page": "/social-media-ad-agency",
+      "regex": "^/social\\-media\\-ad\\-agency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/social\\-media\\-ad\\-agency(?:/)?$"
+    },
+    {
+      "page": "/success-stories",
+      "regex": "^/success\\-stories(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/success\\-stories(?:/)?$"
+    },
+    {
+      "page": "/success-stories/success-story-details",
+      "regex": "^/success\\-stories/success\\-story\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/success\\-stories/success\\-story\\-details(?:/)?$"
+    },
+    {
+      "page": "/team",
+      "regex": "^/team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team(?:/)?$"
+    },
+    {
+      "page": "/terms-conditions",
+      "regex": "^/terms\\-conditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-conditions(?:/)?$"
+    },
+    {
+      "page": "/traditional-offline-ad-agency",
+      "regex": "^/traditional\\-offline\\-ad\\-agency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/traditional\\-offline\\-ad\\-agency(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
