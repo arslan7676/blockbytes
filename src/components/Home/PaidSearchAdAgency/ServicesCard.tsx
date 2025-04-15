@@ -78,7 +78,7 @@ const ServicesCard = () => {
             </div>
 
             <h3 className="text-black text-[20px] md:text-[22px] font-semibold mb-[10px]">
-              Google Ads
+              Web Development
             </h3>
             <p>
               Work closely with clients to understand their business goals,
@@ -142,7 +142,7 @@ const ServicesCard = () => {
             </div>
 
             <h3 className="text-black text-[20px] md:text-[22px] font-semibold mb-[10px]">
-              Microsoft Ads
+              Mobile Development
             </h3>
             <p>
               Work closely with clients to understand their business goals,
@@ -196,7 +196,7 @@ const ServicesCard = () => {
             </div>
 
             <h3 className="text-black text-[20px] md:text-[22px] font-semibold mb-[10px]">
-              Social Media Ads
+              AI/ML
             </h3>
             <p>
               Work closely with clients to understand their business goals,
