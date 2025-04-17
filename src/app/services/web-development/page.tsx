@@ -151,7 +151,7 @@ export default function WebDevelopment() {
 <TechTabs 
     tabs={["Frontend", "Backend", "Libraries", "Databases"]} 
     techStacks={{
-        Frontend: ["React.js", "Vue", "Angular"],
+        Frontend: ["React", "Vue", "Angular"],
         Backend: ["Node.js", "Python", "Ruby On Rails"],
         Libraries: ["jQuery", "Redux", "D3.js"],
         Databases: ["MongoDB", "PostgreSQL"]
