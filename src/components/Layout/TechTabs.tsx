@@ -8,13 +8,19 @@ interface TechTabsProps {
     heading: { title: string; subtitle: string };
 }
 
+// Utility to get image source based on tech name
+const getImageSrc = (tech: string) => {
+    const formatted = tech.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return `/images/${formatted}.png`; // Ensure your images are stored in public/images/
+};
+
 export default function TechTabs({ tabs, techStacks, topButton, heading }: TechTabsProps) {
     const normalizeKey = (key: string) => key.toLowerCase().replace(/[^a-z0-9]+/g, "_");
     const formattedTechStacks = Object.keys(techStacks).reduce((acc, key) => {
         acc[normalizeKey(key)] = techStacks[key];
         return acc;
     }, {} as { [key: string]: string[] });
-    
+
     const formattedTabs = tabs.map(tab => normalizeKey(tab));
     const [activeTab, setActiveTab] = useState(formattedTabs[0] || "");
 
@@ -51,7 +57,7 @@ export default function TechTabs({ tabs, techStacks, topButton, heading }: TechT
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-6 place-items-center">
                     {formattedTechStacks[activeTab]?.map((tech) => (
                         <div key={tech} className="flex flex-col items-center justify-center p-4 w-full sm:w-3/4 md:w-full lg:w-full border rounded-lg shadow-md text-center">
-                            <div className="w-12 h-12 bg-gray-200 mb-2 rounded-full"></div>
+                            <img src={getImageSrc(tech)} alt={tech} className="w-12 h-12 mb-2 object-contain" onError={(e) => (e.currentTarget.style.display = 'none')} />
                             {tech}
                         </div>
                     )) || <p className="text-center col-span-full text-gray-500">No technologies available</p>}
