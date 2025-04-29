@@ -109,12 +109,12 @@ const Footer = () => {
               </h3>
 
               <ul className="list-none space-y-[12px]">
-                <li className="hover:text-[#EF4335]">
-                  <h4>Office Address</h4>
+                <li className="hover:text-[#EF4335] ">
+                  <h4 className="text-black font-semibold">Office Address</h4>
                   <p>HEAD OFFICE 12 S Atlantic Ave, Aberdeen Township, 07747</p>
                 </li>
                 <li className="hover:text-[#EF4335]">
-                  <h4>Phone Number</h4>
+                  <h4 className="text-black font-semibold">Phone Number</h4>
                   <p>+18483458762</p>
                 </li>
               </ul>
