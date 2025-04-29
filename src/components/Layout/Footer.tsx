@@ -122,7 +122,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-        <SignupNewsletter />
+            <SignupNewsletter />
           </div>
         </div>
         {/* Bottom Footer */}
