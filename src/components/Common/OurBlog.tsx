@@ -63,11 +63,11 @@ const OurBlog = () => {
 
               <Link href="/blog/blog-details">
                 <h3 className="text-black text-[20px] sm:text-[22px] font-semibold mb-[20px] hover:text-[#EF4335]">
-                  Demystifying Paid Search Ads: A Beginner's Guide
+                Decoding Paid Search Algorithms: A Technical Introduction
                 </h3>
               </Link>
 
-              <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
+              {/* <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
                 <Link
                   href="#"
                   className="bg-[#FEE] rounded-[100px] py-[7px] px-[20px] md:px-[22px] inline-block text-[14px] md:text-[16px] hover:text-[#fff] hover:bg-[#EF4335] transition delay-100 duration-300 ease-in-out"
@@ -80,7 +80,7 @@ const OurBlog = () => {
                 >
                   Google Search
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             {/* Blog Post 2 */}
@@ -114,11 +114,11 @@ const OurBlog = () => {
 
               <Link href="/blog/blog-details">
                 <h3 className="text-black text-[20px] sm:text-[22px] font-semibold mb-[20px] hover:text-[#EF4335]">
-                  The Art of Writing Compelling Ad Copy for Paid Search
+                Engineering High-Converting Ad Copy: Data-Driven Strategies for Paid Search
                 </h3>
               </Link>
 
-              <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
+              {/* <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
                 <Link
                   href="#"
                   className="bg-[#FEE] rounded-[100px] py-[7px] px-[20px] md:px-[22px] inline-block text-[14px] md:text-[16px] hover:text-[#fff] hover:bg-[#EF4335] transition delay-100 duration-300 ease-in-out"
@@ -131,7 +131,7 @@ const OurBlog = () => {
                 >
                   Google Search
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             {/* Blog Post 3 */}
@@ -165,12 +165,11 @@ const OurBlog = () => {
 
               <Link href="/blog/blog-details">
                 <h3 className="text-black text-[20px] sm:text-[22px] font-semibold mb-[20px] hover:text-[#EF4335]">
-                  Targeting Techniques: Reaching the Right Audience in Paid
-                  Search
+                Audience Targeting Algorithms: Precision Reach in Paid Search Campaigns
                 </h3>
               </Link>
 
-              <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
+              {/* <div className="space-x-[5px] md:space-x-[10px] rtl:space-x-reverse">
                 <Link
                   href="#"
                   className="bg-[#FEE] rounded-[100px] py-[7px] px-[20px] md:px-[22px] inline-block text-[14px] md:text-[16px] hover:text-[#fff] hover:bg-[#EF4335] transition delay-100 duration-300 ease-in-out"
@@ -183,7 +182,7 @@ const OurBlog = () => {
                 >
                   Google Search
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
