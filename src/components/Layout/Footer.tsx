@@ -142,7 +142,7 @@ const Footer = () => {
               </h6>
             </div>
 
-            <div className="text-center md:text-end">
+            {/* <div className="text-center md:text-end">
               <ul className="space-x-[30px] rtl:space-x-reverse">
                 <li className="inline-block relative before:content-[''] before:absolute before:right-[-15px] before:rtl:right-auto before:rtl:left-[-15px] before:bg-[#000] before:h-[15px] before:w-[1px] before:top-[6px] before:hidden lg:before:block last-of-type:before:hidden">
                   <Link href="/privacy-policy" className="text-black hover:text-[#EF4335]">
@@ -156,7 +156,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

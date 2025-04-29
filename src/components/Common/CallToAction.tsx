@@ -14,7 +14,7 @@ const CallToAction = () => {
           <div className="grid items-center gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
             <div>
               <h2 className="text-white font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] max-w-[450px]">
-                Harness the power of social media, achieve marketing excellence!
+              Empower your tech brand through smart online presence!
               </h2>
             </div>
 
