@@ -143,8 +143,10 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+          </div >
+          <div className="mt-[50px]">
+          <SignupNewsletter />
           </div>
-            <SignupNewsletter />
         </div>
         {/* Bottom Footer */}
         <div className="py-[30px]">
