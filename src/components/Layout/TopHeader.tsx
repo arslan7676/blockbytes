@@ -18,8 +18,7 @@ const TopHeader = () => {
               </div>
 
               <div>
-                <p className="text-[12px] sm:text-[13px] leading-none">Email us</p>
-                <a href="mailto:support@adla.com" className="text-black font-semibold leading-none text-[13px] sm:text-[15px] hover:text-[#EF4335]">support@blockbytes.com</a>
+                <a href="mailto:support@blocbytes.com" className="text-black font-semibold leading-none text-[13px] sm:text-[15px] hover:text-[#EF4335]">support@blockbytes.com</a>
               </div>
             </div>
 
@@ -38,7 +37,6 @@ const TopHeader = () => {
               </div>
 
               <div>
-                <p className="text-[13px] leading-none">Call us</p>
                 <a href="tel:+1-485-456-0102" className="text-black font-semibold leading-none text-[13px] sm:text-[15px] hover:text-[#EF4335]">+1-485-456-0102</a>
               </div>
             </div>

@@ -27,7 +27,7 @@ const FunFacts = () => {
 
           <div>
             <p className="font-medium text-white text-[15px] md:text-[16px] lg:text-[14px] 2xl:text-[16px]">
-              Award Winning Agency
+              Award Winning Tech Company 
             </p>
             <p className="font-medium text-white">
               <span className="font-bold text-[16px] lg:text-[16px] xl:text-[16px] md:text-[20px]">
