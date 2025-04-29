@@ -38,7 +38,7 @@ const OurExperts = () => {
                 </div>
 
 
-                <div className="mt-[30px] md:mt-[50px]">
+                {/* <div className="mt-[30px] md:mt-[50px]">
                   <Link
                     href="/team"
                     className="bg-black text-white text-[14px] font-medium inline-block uppercase rounded-full py-[15px] px-[38px] transition duration-500 ease-in-out hover:bg-[#EF4335]"
@@ -49,7 +49,7 @@ const OurExperts = () => {
                       size={20}
                     />
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               <div
