@@ -97,7 +97,28 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+{/* contact info */}
+<div
+              data-aos="fade-in"
+              data-aos-delay="300"
+              data-aos-duration="600"
+              data-aos-once="true"
+            >
+              <h3 className="text-black font-semibold text-[20px] md:text-[22px] mb-[20px]">
+                Contact Info
+              </h3>
 
+              <ul className="list-none space-y-[12px]">
+                <li className="hover:text-[#EF4335]">
+                <h4>Office Address</h4>
+                <p>HEAD OFFICE 12 S Atlantic Ave, Aberdeen Township, 07747</p>
+                </li>
+                <li className="hover:text-[#EF4335]">
+                 <h4>Phone Number</h4>
+                 <p>+18483458762</p>
+                </li>
+              </ul>
+            </div>
             {/* Opportunities */}
             <div
               data-aos="fade-in"
