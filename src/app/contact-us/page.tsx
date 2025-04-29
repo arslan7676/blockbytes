@@ -7,10 +7,10 @@ import Navbar from "@/components/Layout/Navbar";
 export default function ContactUsPage() {
   return (
     <>
-      <div className="gradient-bg">
+      <div>
         <Navbar />
 
-        <hr className="border-[#E3E3E3]" />
+        <hr className="border-[#6494ec]" />
 
         <ContactUsHeader />
 
