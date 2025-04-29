@@ -85,17 +85,6 @@ const ServicesCard = () => {
               target audience, and budget. Develop a comprehensive
             </p>
 
-            <Link
-              href="/services/service-details/"
-              className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-            >
-              read more{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
-                color="#EF4335"
-              />
-            </Link>
           </div>
 
           <div 
@@ -148,18 +137,6 @@ const ServicesCard = () => {
               Work closely with clients to understand their business goals,
               target audience, and budget. Develop a comprehensive
             </p>
-
-            <Link
-              href="/services/service-details/"
-              className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-            >
-              read more{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
-                color="#EF4335"
-              />
-            </Link>
           </div>
 
           <div 
@@ -203,17 +180,6 @@ const ServicesCard = () => {
               target audience, and budget. Develop a comprehensive
             </p>
 
-            <Link
-              href="/services/service-details/"
-              className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-            >
-              read more{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
-                color="#EF4335"
-              />
-            </Link>
           </div>
 
           <div 
@@ -266,18 +232,6 @@ const ServicesCard = () => {
               Work closely with clients to understand their business goals,
               target audience, and budget. Develop a comprehensive
             </p>
-
-            <Link
-              href="/services/service-details/"
-              className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-            >
-              read more{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
-                color="#EF4335"
-              />
-            </Link>
           </div>
         </div>
       </div>
