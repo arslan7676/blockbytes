@@ -141,7 +141,7 @@ const WhatWeDo = () => {
               </div>
 
               <h3 className="text-black text-[20px] md:text-[21px] font-semibold mb-[10px]">
-                AI
+                AI/ML Development
               </h3>
               <p>
                 Leverage advanced AI technologies to automate processes,
@@ -217,7 +217,7 @@ const WhatWeDo = () => {
               </div>
 
               <h3 className="text-black text-[20px] md:text-[21px] xl:text-[21px] 2xl:text-[22px] font-semibold mb-[10px]">
-                Native Advertising
+                Block Chain Development
               </h3>
               <p>
                 Work closely with clients to understand their business goals,
