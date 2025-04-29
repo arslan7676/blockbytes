@@ -172,7 +172,7 @@ const Services: React.FC = () => {
             </div>
 
             {/* Tab content */}
-            <div className="bg-[#EF4335] rounded-0 lg:rounded-r-[20px] rtl:lg:rounded-r-[0] rtl:lg:rounded-l-[20px] lg:col-span-2">
+            <div className="bg-[#477ef5] rounded-0 lg:rounded-r-[20px] rtl:lg:rounded-r-[0] rtl:lg:rounded-l-[20px] lg:col-span-2">
               {activeTab === 0 && (
                 <>
                   <div
@@ -200,20 +200,6 @@ const Services: React.FC = () => {
                     <p>
                       Our team specializes in building responsive, feature-rich mobile applications for iOS and Android. From concept to launch, we ensure seamless user experiences, strong performance, and scalable architecture that supports your business growth.
                     </p>
-
-
-                    <Link
-                      href="/services/service-details/"
-                      className="text-white text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:underline"
-                    >
-                      read more{" "}
-                      <ArrowRight2
-                        className="inline-block relative -top-[2px]"
-                        size={20}
-                        color="#fff"
-                      />
-                    </Link>
-
                     {/* Shape */}
                     <Image
                       src={shapeImg1}
@@ -250,19 +236,6 @@ const Services: React.FC = () => {
                     <p>
                       Our team excels in designing and developing responsive, scalable, and secure websites using modern technologies. Whether it's a marketing site or a dynamic web application, we ensure your online presence delivers both performance and impact.
                     </p>
-
-
-                    <Link
-                      href="/services/service-details/"
-                      className="text-white text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:underline"
-                    >
-                      read more{" "}
-                      <ArrowRight2
-                        className="inline-block relative -top-[2px]"
-                        size={20}
-                        color="#fff"
-                      />
-                    </Link>
 
                     {/* Shape */}
                     <Image
@@ -301,19 +274,6 @@ const Services: React.FC = () => {
                       We specialize in developing intelligent systems that learn and adapt—from predictive analytics and recommendation engines to natural language processing and computer vision. Our solutions are built to scale, giving your business a competitive edge through smart automation and advanced insights.
                     </p>
 
-
-                    <Link
-                      href="/services/service-details/"
-                      className="text-white text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:underline"
-                    >
-                      read more{" "}
-                      <ArrowRight2
-                        className="inline-block relative -top-[2px]"
-                        size={20}
-                        color="#fff"
-                      />
-                    </Link>
-
                     {/* Shape */}
                     <Image
                       src={shapeImg1}
@@ -350,20 +310,6 @@ const Services: React.FC = () => {
                     <p>
                       We specialize in setting up, managing, and scaling e-commerce operations on platforms like Amazon, Shopify, and WooCommerce. From product listing optimization and SEO to inventory management and performance analytics, our team helps your brand grow and thrive in the competitive online marketplace.
                     </p>
-
-
-                    <Link
-                      href="/services/service-details/"
-                      className="text-white text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:underline"
-                    >
-                      read more{" "}
-                      <ArrowRight2
-                        className="inline-block relative -top-[2px]"
-                        size={20}
-                        color="#fff"
-                      />
-                    </Link>
-
                     {/* Shape */}
                     <Image
                       src={shapeImg1}
@@ -400,20 +346,6 @@ const Services: React.FC = () => {
                     <p>
                       We specialize in building decentralized applications (dApps), smart contracts, NFTs, and blockchain integrations that enable transparent, trustless systems. Our Web 3.0 solutions empower businesses with enhanced security, ownership, and user control in a rapidly evolving digital landscape.
                     </p>
-
-
-                    <Link
-                      href="/services/service-details/"
-                      className="text-white text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:underline"
-                    >
-                      read more{" "}
-                      <ArrowRight2
-                        className="inline-block relative -top-[2px]"
-                        size={20}
-                        color="#fff"
-                      />
-                    </Link>
-
                     {/* Shape */}
                     <Image
                       src={shapeImg1}
