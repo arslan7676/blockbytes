@@ -37,7 +37,7 @@ const WhatWeDo = () => {
             </h4>
 
             <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2]">
-            Pioneering Tech Innovation, Breathing Life Into Digital Brands
+            We bridge the gap between ambition and achievement through technology
             </h2>
           </div>
         <div className="grid grid-cols-12 gap-6 items-start">

@@ -11,7 +11,7 @@ import FunFacts from "./FunFacts";
 const HeroBanner = () => {
   return (
     <>
-      <div className="bg-[#EF4335] pt-[50px] md:pt-[80px] lg:pt-[80px] xl:pt-[100px] pb-[55px]">
+      <div className="bg-[#477ef5] pt-[50px] md:pt-[80px] lg:pt-[80px] xl:pt-[100px] pb-[55px]">
         <div className="container lg:max-w-[1500px] mx-auto">
           <div className="grid items-center gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
             {/* Banner Content */}
@@ -52,7 +52,7 @@ const HeroBanner = () => {
               </Link>
 
               {/* FunFacts */}
-              <FunFacts />
+              {/* <FunFacts /> */}
             </div>
 
             {/* Hero Image */}
