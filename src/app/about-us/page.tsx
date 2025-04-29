@@ -10,7 +10,7 @@ import Navbar from "@/components/Layout/Navbar";
 export default function AboutUsPage() {
   return (
     <>
-      <div className="gradient-bg">
+      <div>
         <Navbar />
 
         <hr className="border-[#E3E3E3]" />
