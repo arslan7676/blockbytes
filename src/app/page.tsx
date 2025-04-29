@@ -1,58 +1,42 @@
-import MeetOurExperts from "@/components/Home/PaidSearchAdAgency/MeetOurExperts";
-import BorderLine from "@/components/Common/BorderLine";
-import WhatWeDo from "@/components/Home/PaidSearchAdAgency/WhatWeDo";
-import FunFacts from "@/components/Home/TraditionalOfflineAdAgency/HeroBanner/FunFacts";
-import ServicesCard from "@/components/Home/PaidSearchAdAgency/ServicesCard";
-import OurProcess from "@/components/Home/TraditionalOfflineAdAgency/OurProcess";
-import AwardWinningAgency from "@/components/Home/PaidSearchAdAgency/AwardWinningAgency";
-import SuccessStories from "@/components/Home/TraditionalOfflineAdAgency/SuccessStories";
-import BrandsSlider from "@/components/Common/BrandsSlider";
-import TestimonialsSlider from "@/components/Common/TestimonialsSlider";
-import Cta from "@/components/Common/Cta";
-import OurBlog from "@/components/Common/OurBlog";
-import Footer from "@/components/Layout/Footer";
-import Navbar from "@/components/Layout/Navbar";
 import TopHeader from "@/components/Layout/TopHeader";
+import Navbar from "@/components/Layout/Navbar";
 import HeroSection from "@/components/Home/TraditionalOfflineAdAgency/HeroBanner/HeroSection";
-
-
-export default function Home() {
+import Partner from "@/components/Home/TraditionalOfflineAdAgency/Partner";
+import WhatWeDo from "@/components/Home/TraditionalOfflineAdAgency/WhatWeDo";
+import AboutContent from "@/components/Home/TraditionalOfflineAdAgency/AboutContent";
+import Services from "@/components/Home/TraditionalOfflineAdAgency/Services";
+import OurProcess from "@/components/Home/TraditionalOfflineAdAgency/OurProcess";
+import TestimonialsSliderThree from "@/components/Common/TestimonialsSliderThree";
+import SuccessStories from "@/components/Home/TraditionalOfflineAdAgency/SuccessStories";
+import OurExperts from "@/components/Common/OurExperts";
+import OurBlog from "@/components/Common/OurBlog";
+import CallToAction from "@/components/Common/CallToAction";
+import Footer from "@/components/Layout/Footer";
+export default function TraditionalOfflineAdAgency() {
   return (
     <>
-      <div>
       <TopHeader />
 
-        <Navbar />
-        
-        <HeroSection />
+      <Navbar />
 
-        <MeetOurExperts />
-      </div>
+      <HeroSection />
 
-      <BorderLine />
+      <Partner />
 
       <WhatWeDo />
 
-      <FunFacts />
+      <AboutContent />
 
-      <div className="gradient-bg-two pt-[260px] md:pt-[270px] lg:pt-[310px]">
-        <ServicesCard />
+      <Services />
 
-        <OurProcess />
-      </div>
-      <div className="gradient-bg-two pt-[190px]">
-        <SuccessStories />
+      <OurProcess />
 
-        <BrandsSlider />
-
-        <BorderLine />
-      </div>
-
-      <TestimonialsSlider />
-
-      <Cta />
+      <SuccessStories />
+      <OurExperts />
 
       <OurBlog />
+
+      <CallToAction />
 
       <Footer />
     </>
