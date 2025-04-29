@@ -43,23 +43,12 @@ const SuccessStories = () => {
               </h4>
 
               <h2 className="text-white font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[33px] leading-[1.2]">
-                Where Tangible Creations and Human Bonds Converge for Lasting
-                Offline Impact
+              Where Digital Innovation and Human Connection Converge for Real-World Impact.
               </h2>
             </div>
 
             <div className="md:text-end md:mt-[100px]">
-              <Link
-                href="/success-stories"
-                className="text-white text-[14px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-              >
-                view more{" "}
-                <ArrowRight2
-                  className="inline-block relative -top-[2px]"
-                  size={20}
-                  color="#EF4335"
-                />
-              </Link>
+              
             </div>
           </div>
 
@@ -72,7 +61,8 @@ const SuccessStories = () => {
               data-aos-duration="600"
               data-aos-once="true"
             >
-              <Link href="/success-stories/success-story-details/">
+              {/* this link add for meet expert /success-stories/success-story-details/ */}
+              <Link href="javascript:void(0)"> 
                 <Image
                   src={successStoriesImg1}
                   alt="Success Stories"
@@ -88,7 +78,7 @@ const SuccessStories = () => {
                   <p className="text-[#CACACA] text-[15px]">Ecommerce Shop</p>
                 </div>
 
-                <Link
+                {/* <Link
                   href="/success-stories/success-story-details/"
                   className="bg-[#232323] w-[50px] h-[50px] leading-[48px] rounded-full text-center shrink-0 hover:bg-[#000]"
                 >
@@ -109,7 +99,7 @@ const SuccessStories = () => {
                       fill="#EF4335"
                     />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -120,7 +110,7 @@ const SuccessStories = () => {
               data-aos-duration="600"
               data-aos-once="true"
             >
-              <Link href="/success-stories/success-story-details/">
+              <Link href="javascript:void(0)">
                 <Image
                   src={successStoriesImg2}
                   alt="Success Stories"
@@ -136,7 +126,7 @@ const SuccessStories = () => {
                   <p className="text-[#CACACA] text-[15px]">Clothing Brands</p>
                 </div>
 
-                <Link
+                {/* <Link
                   href="/success-stories/success-story-details/"
                   className="bg-[#232323] w-[50px] h-[50px] leading-[48px] rounded-full text-center shrink-0 hover:bg-[#000]"
                 >
@@ -157,7 +147,7 @@ const SuccessStories = () => {
                       fill="#EF4335"
                     />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -168,7 +158,7 @@ const SuccessStories = () => {
               data-aos-duration="600"
               data-aos-once="true"
             >
-              <Link href="/success-stories/success-story-details/">
+              <Link href="javascript:void(0)">
                 <Image
                   src={successStoriesImg3}
                   alt="Success Stories"
@@ -184,7 +174,7 @@ const SuccessStories = () => {
                   <p className="text-[#CACACA] text-[15px]">Local Business</p>
                 </div>
 
-                <Link
+                {/* <Link
                   href="/success-stories/success-story-details/"
                   className="bg-[#232323] w-[50px] h-[50px] leading-[48px] rounded-full text-center shrink-0 hover:bg-[#000]"
                 >
@@ -205,7 +195,7 @@ const SuccessStories = () => {
                       fill="#EF4335"
                     />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -216,7 +206,7 @@ const SuccessStories = () => {
               data-aos-duration="600"
               data-aos-once="true"
             >
-              <Link href="/success-stories/success-story-details/">
+              <Link href="javascript:void(0)">
                 <Image
                   src={successStoriesImg4}
                   alt="Success Stories"
@@ -232,7 +222,7 @@ const SuccessStories = () => {
                   <p className="text-[#CACACA] text-[15px]">Interior Design</p>
                 </div>
 
-                <Link
+                {/* <Link
                   href="/success-stories/success-story-details/"
                   className="bg-[#232323] w-[50px] h-[50px] leading-[48px] rounded-full text-center shrink-0 hover:bg-[#000]"
                 >
@@ -253,7 +243,7 @@ const SuccessStories = () => {
                       fill="#EF4335"
                     />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
