@@ -2,6 +2,8 @@ import 'swiper/css/bundle';
 import "../../public/css/navbar.css";
 import "../../public/css/boxicons.min.css";
 import "./globals.css";
+import Image from 'next/image';
+
 import type { Metadata } from "next";
 import { Figtree, Outfit } from "next/font/google";
 import BackToTop from '@/components/Layout/BackToTop';

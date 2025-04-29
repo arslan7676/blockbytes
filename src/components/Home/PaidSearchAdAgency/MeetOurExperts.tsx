@@ -64,7 +64,7 @@ const MeetOurExperts = () => {
               <Image className="w-[46px]" src={award} alt="award" />
 
               <div>
-                <p className="font-medium text-black">Award Winning Agency</p>
+                <p className="font-medium text-black">Award Winning Company</p>
                 <p className="font-medium text-black">
                   <span className="font-bold text-[20px]">3500+</span> Active
                   Clients
