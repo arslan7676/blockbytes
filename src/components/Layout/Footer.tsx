@@ -97,8 +97,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-{/* contact info */}
-<div
+            {/* contact info */}
+            <div
               data-aos="fade-in"
               data-aos-delay="300"
               data-aos-duration="600"
@@ -110,12 +110,12 @@ const Footer = () => {
 
               <ul className="list-none space-y-[12px]">
                 <li className="hover:text-[#EF4335]">
-                <h4>Office Address</h4>
-                <p>HEAD OFFICE 12 S Atlantic Ave, Aberdeen Township, 07747</p>
+                  <h4>Office Address</h4>
+                  <p>HEAD OFFICE 12 S Atlantic Ave, Aberdeen Township, 07747</p>
                 </li>
                 <li className="hover:text-[#EF4335]">
-                 <h4>Phone Number</h4>
-                 <p>+18483458762</p>
+                  <h4>Phone Number</h4>
+                  <p>+18483458762</p>
                 </li>
               </ul>
             </div>
@@ -143,8 +143,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <SignupNewsletter />
           </div>
+            <SignupNewsletter />
         </div>
         {/* Bottom Footer */}
         <div className="py-[30px]">
