@@ -33,7 +33,7 @@ const HeroBanner = () => {
                 data-aos-delay="200"
                 data-aos-duration="600"
               >
-              To enhance your customer retention and elevate your brand's reputation, BlocBytes develops versatile, highly scalable, and modern web applications that adhere to the highest quality standards, tailored to meet your specific business needs.c
+              To enhance your customer retention and elevate your brand's reputation, BlocBytes develops versatile, highly scalable, and modern web applications that adhere to the highest quality standards, tailored to meet your specific business needs.
               </p>
 
               <Link
