@@ -38,8 +38,8 @@ const AboutContent = () => {
                   </h4>
 
                   <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] mb-[15px] md:mb-[30px]">
-                    Crafting Unforgettable Offline Experiences That Transcend
-                    Time and Screens
+                  Delivering Digital Experiences That Endure Beyond Trends and Technology."  
+                  or "Where Code Meets Creativity to Shape Timeless Digital Experiences.
                   </h2>
 
                   <p>
@@ -55,11 +55,11 @@ const AboutContent = () => {
                       <i className="bx bxs-briefcase"></i>
                     </div>
 
-                    <h3 className="text-black font-semibold text-[25px] md:text-[32px] lg:text-[36px]">
+                    {/* <h3 className="text-black font-semibold text-[25px] md:text-[32px] lg:text-[36px]">
                       25 +
-                    </h3>
+                    </h3> */}
 
-                    <p>Years driving growth</p>
+                    <p>Years of driving growth</p>
                   </div>
 
                   <div className="text-center md:text-left rtl:md:text-right">

@@ -21,7 +21,7 @@ const WhatWeDo = () => {
             </h4>
 
             <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2]">
-              Pioneering Offline Advertising, Breathing Life Into Brands
+            We bridge the gap between ambition and achievement through technology.
             </h2>
           </div>
 
@@ -65,20 +65,7 @@ const WhatWeDo = () => {
               </h3>
               <p>
                 Design and develop responsive, scalable, and secure websites that align with your brand identity and deliver a seamless user experience across all devices.
-              </p>
-
-
-              <Link
-                href="/services/service-details/"
-                className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-              >
-                read more{" "}
-                <ArrowRight2
-                  className="inline-block relative -top-[2px]"
-                  size={20}
-                  color="#EF4335"
-                />
-              </Link>
+              </p>           
             </div>
 
             <div
@@ -121,19 +108,6 @@ const WhatWeDo = () => {
               <p>
                 Build high-performance, user-friendly mobile applications tailored to your business needs, ensuring seamless experiences across iOS and Android platforms.
               </p>
-
-
-              <Link
-                href="/services/service-details/"
-                className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-              >
-                read more{" "}
-                <ArrowRight2
-                  className="inline-block relative -top-[2px]"
-                  size={20}
-                  color="#EF4335"
-                />
-              </Link>
             </div>
 
             <div
@@ -174,19 +148,6 @@ const WhatWeDo = () => {
                 gain data-driven insights, and deliver personalized customer experiences
                 that align with your business goals.
               </p>
-
-
-              <Link
-                href="/services/service-details/"
-                className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-              >
-                read more{" "}
-                <ArrowRight2
-                  className="inline-block relative -top-[2px]"
-                  size={20}
-                  color="#EF4335"
-                />
-              </Link>
             </div>
 
             <div
@@ -262,18 +223,6 @@ const WhatWeDo = () => {
                 Work closely with clients to understand their business goals,
                 target audience, and budget. Develop a comprehensive
               </p>
-
-              <Link
-                href="/services/service-details/"
-                className="text-black text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-500 ease-in-out hover:text-[#EF4335]"
-              >
-                read more{" "}
-                <ArrowRight2
-                  className="inline-block relative -top-[2px]"
-                  size={20}
-                  color="#EF4335"
-                />
-              </Link>
             </div>
           </div>
 
@@ -290,18 +239,6 @@ const WhatWeDo = () => {
               that elevate your brand and drive real results. As a forward-thinking
                tech company, your growth is our mission.
             </p>
-
-            <Link
-              href="/about-us/"
-              className="font-medium text-black uppercase transition duration-500 ease-in-out inline-block hover:text-[#EF4335] mt-[20px]"
-            >
-              Know More About Us{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={18}
-                color="#EF4335"
-              />
-            </Link>
           </div>
         </div>
       </div>
