@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="container mx-auto">
         <div className="bg-[#F2F2F8] rounded-[20px] p-[30px] md:p-[80px] lg:p-[100px]">
-          <div className="grid gap-[25px] grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4">
+          <div className="grid gap-[25px] grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-5 2xl:grid-cols-5">
             {/* Solutions */}
             <div
               data-aos="fade-in"
@@ -143,10 +143,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div >
-          <div className="mt-[50px]">
           <SignupNewsletter />
-          </div>
+          </div >
         </div>
         {/* Bottom Footer */}
         <div className="py-[30px]">
