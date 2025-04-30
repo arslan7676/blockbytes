@@ -54,11 +54,11 @@ export default function TechTabs({ tabs, techStacks, topButton, heading }: TechT
                         ))}
                     </div>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-6 place-items-center">
+                <div className="w-[580px] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-6 place-items-center">
                     {formattedTechStacks[activeTab]?.map((tech) => (
                         <div key={tech} className="flex flex-col items-center justify-center p-4 w-full sm:w-3/4 md:w-full lg:w-full border rounded-lg shadow-md text-center">
                             <img 
-                                src={`/images/${tech.toLowerCase().replace(/[^a-z0-9]/g, "")}.png`} 
+                                src={getImageSrc(tech)} 
                                 alt={tech} 
                                 className="w-12 h-12 mb-2 object-contain" 
                                 onError={(e) => {
