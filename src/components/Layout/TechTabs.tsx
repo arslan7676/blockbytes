@@ -70,7 +70,7 @@ export default function TechTabs({ tabs, techStacks, topButton, heading }: TechT
                         </div>
                     )) || <p className="text-center col-span-full text-gray-500">No technologies available</p>}
                 </div>
-                {topButton && (
+                {/* {topButton && (
                     <div className="text-center mt-8">
                         <a 
                             href={topButton.link} 
@@ -78,7 +78,7 @@ export default function TechTabs({ tabs, techStacks, topButton, heading }: TechT
                             {topButton.text}
                         </a>
                     </div>
-                )}
+                )} */}
             </div>
         </div>
     );
