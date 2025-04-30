@@ -32,7 +32,7 @@ const serviceDescriptions: Record<ServiceType, { description: string; image: Sta
     image: pageBanner1
   },
   "Amazon & E-Commerce": {
-    description: "BlocBytes offers comprehensive Amazon eCommerce services designed to elevate your brand's presence and performance on the Amazon marketplace.",
+    description: "BlocBytes offers comprehensive Amazon eCommerce services designed to elevate your brand's presence and performance on the Amazon marketplace. Our team of experts provides tailored solutions to help you navigate the complexities of Amazon's ecosystem, ensuring your products reach the right audience and achieve optimal sales performance.",
     image: amazon
   },
   "BlocBytes Web3 Development Services": {

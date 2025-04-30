@@ -69,63 +69,6 @@ const webDevelopmentServices = {
     ]
 };
 
-const webDevelopmentIndustries = {
-    header: {
-        subHeading: "Web Application Development Services Across Diverse Industries",
-        mainHeading: "BlocBytes has established a reputation for delivering premium solutions and top-notch bespoke web applications. The primary industries we serve include:"
-        },
-        services: [
-            {
-                name: "Fintech",
-                description: " ",
-                image: "fintech",
-                link: "/services/cloud-migration"
-            },
-
- {
-                name: "Travel & Tourism",
-                description: " ",
-                image: "travel",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "E-Commerce",
-                description: " ",
-                image: "commerce",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "Healthcare",
-                description: " ",
-                image: "healthcare",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "Real Estate",
-                description: " ",
-                image: "realestate",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "Education",
-                description: " ",
-                image: "education",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "Food & Grocery",
-                description: " ",
-                image: "food",
-                link: "/services/cloud-migration"
-            },
-            {
-                name: "Healthcare",
-                description: " ",
-                image: "ai",
-                link: "/services/cloud-migration"
-            },
-            ]
-}
 
 export default function amazon() {
     return (
@@ -136,7 +79,7 @@ export default function amazon() {
             </div>
             <hr className="border-[#E3E3E3]" />
 
-            <div className="gradient-bg">
+            <div className="bg-[#477ef5]">
                 <ServicesHeader service="Amazon & E-Commerce" />
 
             </div>
