@@ -69,7 +69,7 @@ const ServicesHeader = ({ service }: ServicesHeaderProps) => {
               <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] mb-[15px] md:mb-[30px]">
                 {service}
               </h2>
-              <p>
+              <p className="text-black text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] leading-[1.8] mb-[30px] md:mb-[50px]">
                 {serviceData.description.split("\n").map((line, index) => (
                   <span key={index}>
                     {line}
