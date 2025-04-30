@@ -93,12 +93,7 @@ const webDevelopmentIndustries = {
             image: "Predictive-Analytics",
             link: "/services/cloud-migration"
         },
-        {
-            name: "AI development and integration",
-            description: "Leveraging AI to automate business processes, enhance customer service, and improve decision-making.",
-            image: "ai",
-            link: "/services/cloud-migration"
-        },
+      
     ]
 }
 
