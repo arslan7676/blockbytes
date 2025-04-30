@@ -40,7 +40,7 @@ const serviceDescriptions: Record<ServiceType, { description: string; image: Sta
     image: web3
   },
   "Hire Developers with GIS Software Development Experience": {
-    description: "Custom GIS Mapping Software and Spatial Analytics",
+    description: "OTE provides skilled GIS back-end developers for hire, offering expertise in capturing geospatial data and developing interactive GIS mapping solutions for diverse applications, including climate research and urban planning. Leveraging AI-powered GIS software, we enable the processing of vast spatial datasets, delivering critical insights into urban expansion, climate change, and environmental trends.\nOur AI-driven Google location tracking applications facilitate real-time user behavior analysis, empowering businesses to offer personalized experiences and targeted advertising. Additionally, our geolocation solutions seamlessly integrate with fleet management systems, allowing transportation companies to monitor vehicles in real time, optimize routes, enhance delivery efficiency, and reduce operational costs—leading to improved customer satisfaction and business growth.",
     image: gis
     },
     "Staff Augmentation": {
