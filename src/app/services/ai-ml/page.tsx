@@ -106,7 +106,7 @@ export default function aiMlApplication() {
             </div>
             <hr className="border-[#E3E3E3]" />
 
-            <div className="gradient-bg">
+            <div className="bg-[#477ef5] ">
                 <ServicesHeader service="BlocBytes Artificial Intelligence Development Services" />
 
             </div>
