@@ -154,9 +154,11 @@ export default function WebDevelopment() {
         Frontend: ["React", "Vue", "Angular", "Backbone.js" ,
              "Polymer", "Aurelia","Meteor.js" ,"Semantic-UI" , 
              "Next.js","Nuxt.js", "Svelte" , "Ember.js" , "Gatsby" , "CSS" , "HTML"], 
-        Backend: ["Nodejs", "Python", "Ruby On Rails"],
-        Libraries: ["jQuery", "Redux", "D3.js"],
-        Databases: ["MongoDB", "PostgreSQL"]
+        Backend: ["Nodejs", "Python", "Ruby On Rails" , "PHP", "Java",
+             "C#", "Go", "Django", "Flask", "Spring Boot", "ASP.NET", "Laravel", "Express.js"],
+        Libraries: ["jQuery", "Redux", "D3.js" , "Three.js", "Chart.js",
+             "Socket.io", "TensorFlow.js", "RxJS", "Lodash", "Moment.js", "Underscore.js"],
+        Databases: ["MongoDB", "PostgreSQL" , "MySQL", "SQLite", "Cassandra",]
     }} 
     heading={{
         title: "Our Custom Tech Stack",
