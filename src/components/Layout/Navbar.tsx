@@ -137,7 +137,6 @@ const Navbar: React.FC = () => {
                           "AI ML",
                           "Web Development",
                           "Mobile Development",
-                          "Cloud Computing",
                           "Amazon & E-Commerce",
                           "Blockchain & Web3.0",
                           "GIS Solutions",
