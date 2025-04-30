@@ -12,7 +12,7 @@ import staff from "/public/images/staff.png";
 import web from "/public/images/web.png";
 import amazon from "/public/images/amazon.png";
 
-type ServiceType = "BlocBytes Artificial Intelligence Development Services" | "Web Development" | "The Native & cross-platform mobile app development" | "Cloud Computing" | "Amazon & E-Commerce" | "BlocBytes Web3 Development Services" | "GIS Software Development Services" | "Staff Augmentation"| "Back-End GIS Specialists";
+type ServiceType = "BlocBytes Artificial Intelligence Development Services" | "Web Development" | "The Native & cross-platform mobile app development" | "Cloud Computing" | "Amazon & E-Commerce" | "BlocBytes Web3 Development Services" | "Hire Developers with GIS Software Development Experience" | "Staff Augmentation"| "Back-End GIS Specialists";
 
 const serviceDescriptions: Record<ServiceType, { description: string; image: StaticImageData }> = {
   "BlocBytes Artificial Intelligence Development Services": {
@@ -39,7 +39,7 @@ const serviceDescriptions: Record<ServiceType, { description: string; image: Sta
     description: "BlocBytes is a top-tier Web 3.0 development company that leverages advanced technologies to build innovative solutions.\n\nWhat is Web 3.0?\n\nWeb 3.0, commonly referred to as Web3, is the next phase of the internet, prioritizing decentralization, blockchain technology, and token-based systems.It eliminates intermediaries, enabling direct peer-to-peer interactions and revolutionizing industries such as finance and digital content creation.",
     image: web3
   },
-  "GIS Software Development Services": {
+  "Hire Developers with GIS Software Development Experience": {
     description: "Custom GIS Mapping Software and Spatial Analytics",
     image: gis
     },
