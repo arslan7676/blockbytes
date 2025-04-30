@@ -36,7 +36,7 @@ const serviceDescriptions: Record<ServiceType, { description: string; image: Sta
     image: amazon
   },
   "BlocBytes Web3 Development Services": {
-    description: "BlocBytes is a top-tier Web 3.0 development company that leverages advanced technologies to build innovative solutions.\n\nWhat is Web 3.0?\n\nWeb 3.0, commonly referred to as Web3, is the next phase of the internet, prioritizing decentralization, blockchain technology, and token-based systems.",
+    description: "BlocBytes is a top-tier Web 3.0 development company that leverages advanced technologies to build innovative solutions.\n\nWhat is Web 3.0?\n\nWeb 3.0, commonly referred to as Web3, is the next phase of the internet, prioritizing decentralization, blockchain technology, and token-based systems.It eliminates intermediaries, enabling direct peer-to-peer interactions and revolutionizing industries such as finance and digital content creation.",
     image: web3
   },
   "GIS Software Development Services": {
