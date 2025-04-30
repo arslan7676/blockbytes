@@ -20,7 +20,7 @@ const serviceDescriptions: Record<ServiceType, { description: string; image: Sta
     image: ai
   },
   "Web Development": {
-    description: "To enhance your customer retention and elevate your brand's reputation, BlocBytes develops versatile, highly scalable, and modern web applications that adhere to the highest quality standards, tailored to meet your specific business needs.",
+    description: "To enhance your customer retention and elevate your brand's reputation, BlocBytes develops versatile, highly scalable, and modern web applications that adhere to the highest quality standards, tailored to meet your specific business needs.\n\nBy thoroughly evaluating your preferences, expectations, and objectives, our seasoned team of pre-vetted developers delivers exceptional web app development services that align perfectly with your brand.",
     image: web
   },
   "The Native & cross-platform mobile app development": {

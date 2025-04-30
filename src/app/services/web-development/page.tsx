@@ -119,7 +119,7 @@ const webDevelopmentIndustries = {
                 link: "/services/cloud-migration"
             },
             {
-                name: "Healthcare",
+                name: "On-Demand Services",
                 description: " ",
                 image: "ai",
                 link: "/services/cloud-migration"
@@ -136,7 +136,7 @@ export default function WebDevelopment() {
             </div>
             <hr className="border-[#E3E3E3]" />
 
-            <div className="gradient-bg">
+            <div className="bg-[#477ef5] ">
                 <ServicesHeader service="Web Development" />
 
             </div>
