@@ -54,7 +54,7 @@ export default function TechTabs({ tabs, techStacks, topButton, heading }: TechT
                         ))}
                     </div>
                 </div>
-                <div className="w-[580px] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+                <div className="w-[880px] mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
                     {formattedTechStacks[activeTab]?.map((tech) => (
                         <div key={tech} className="flex flex-col items-center justify-center p-4 w-full border rounded-lg shadow-md text-center">
                             <img 
