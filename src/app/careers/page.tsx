@@ -8,15 +8,15 @@ import Navbar from "@/components/Layout/Navbar";
 export default function CareersPage() {
   return (
     <>
-      <div className="bg-[#477ef5]">
         <Navbar />
+      <div className="bg-[#477ef5]">
 
         <hr className="border-[#E3E3E3]" />
  
         <CareersHeader />
 
-        <CareersList />
       </div>
+        <CareersList />
 
       <OurExperts />
 
