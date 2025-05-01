@@ -7,17 +7,15 @@ import Navbar from "@/components/Layout/Navbar";
 export default function ContactUsPage() {
   return (
     <>
-      <div>
         <Navbar />
-
-        <hr className="border-[#6494ec]" />
-
+        <hr className="border-[#ffffff]" />
+      <div className="bg-[#477ef5]">
         <ContactUsHeader />
 
+      </div>
         <ContactForm />
 
         {/* <FaqContent /> */}
-      </div>
 
       <Footer />
     </>
