@@ -66,10 +66,6 @@ const Partner = () => {
                   <SwiperSlide className="text-center">
                     <Image src={pratnerImg5} alt="brand" />
                   </SwiperSlide>
-
-                  <SwiperSlide className="text-center">
-                    <Image src={pratnerImg2} alt="brand" />
-                  </SwiperSlide>
                 </Swiper>
               </div>
             </div>
