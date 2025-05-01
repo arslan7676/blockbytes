@@ -62,14 +62,14 @@ const webDevelopmentServices = {
         },
 
         {
-            name: "NFT Developmen",
-            description: "Developing play-to-earn gaming experiences incorporating blockchain technology.",
+            name: "NFT Development",
+            description: "NFT Development(Enabling artists and content creators to safeguard digital assets through NFTs.)",
             image: "tisting",
             link: "/services/serverless"
         },
         {
             name: "GameFi Development",
-            description: "Enabling artists and content creators to safeguard digital assets through NFTs.",
+            description: "GameFi Development(Developing play-to-earn gaming experiences incorporating blockchain technology.).",
             image: "tisting",
             link: "/services/serverless"
         }, {
