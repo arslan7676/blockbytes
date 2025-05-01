@@ -36,7 +36,7 @@ const OurExpertsStyle2 = () => {
                 </div>
 
                 <div className="mt-[30px] md:mt-[50px]">
-                  <Link
+                  {/* <Link
                     href="/team"
                     className="bg-black text-white text-[14px] font-medium inline-block uppercase rounded-full py-[15px] px-[38px] transition duration-500 ease-in-out hover:bg-[#EF4335]"
                   >
@@ -45,7 +45,7 @@ const OurExpertsStyle2 = () => {
                       className="inline-block relative -top-[2px]"
                       size={20}
                     />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
