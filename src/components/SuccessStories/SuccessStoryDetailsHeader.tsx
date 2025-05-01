@@ -6,7 +6,7 @@ import { ArrowRight2 } from "iconsax-react";
 import Image from "next/image";
 
 import pageBanner5 from "/public/images/page-banner5.jpg";
-import brand from "/public/images/brand-white-lg.png";
+// import brand from "/public/images/brand-white-lg.png";
 import shapeImg from "/public/images/shape1.png"; 
 
 const SuccessStoryDetailsHeader = () => {
@@ -21,13 +21,15 @@ const SuccessStoryDetailsHeader = () => {
               </h4>
 
               <h2 className="text-black font-semibold text-[25px] md:text-[30px] lg:text-[32px] xl:text-[36px] leading-[1.2] mb-[15px] md:mb-[30px]">
-                Beyond the Glow of Screens: Unraveling the Timeless Spell of Offline Advertising Magic
+                Beyond the Glow of Screens: Our Success Stories
               </h2>
 
               <p>
                 Transforming your brand's online presence and generating
                 meaningful results is our top priority at{" "}
-                <strong>Adla</strong>. As a leading paid search ad agency,
+                <strong>Blockbytes</strong>. As a leading tech agency, we are
+                committed to delivering innovative solutions that drive
+                success.
               </p>
 
               <Link
@@ -50,11 +52,11 @@ const SuccessStoryDetailsHeader = () => {
                   className="rounded-[20px] relative"
                 />
 
-                <Image
+                {/* <Image
                   src={brand}
                   alt="brand"
                   className="absolute bottom-[25px] right-[40px]"
-                />
+                /> */}
                 <Image
                   src={shapeImg}
                   alt="shape"
