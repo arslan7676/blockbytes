@@ -30,9 +30,6 @@ const ContactInfo = () => {
               <a href="+18483458762" className="block hover:text-[#EF4335]">
               +18483458762
               </a>
-              <a href="+18483458762" className="block hover:text-[#EF4335]">
-              +18483458762
-              </a>
             </div>
           </div>
         </div>
@@ -51,13 +48,7 @@ const ContactInfo = () => {
                 className="block hover:text-[#EF4335]"
               >
                 info@blocbytes.com
-              </a>
-              <a
-                href="mailto:info@adla.com"
-                className="block hover:text-[#EF4335]"
-              >
-              info@blocbytes.com
-              </a>
+              </a>             
             </div>
           </div>
         </div>

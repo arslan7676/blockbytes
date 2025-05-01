@@ -21,8 +21,7 @@ const ContactUsHeader = () => {
               </h2>
 
               <p>
-                Driving innovation and delivering impactful digital solutions is our top priority at
-                <strong>BlocBytes</strong>. As a forward-thinking tech company, we empower businesses to thrive in the digital era.
+              Driving innovation and delivering impactful digital solutions is our top priority at BlocBytes. As a forward-thinking tech company, we empower businesses to thrive in the digital era.
               </p>
 
             </div>
