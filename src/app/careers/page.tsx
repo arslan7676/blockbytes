@@ -20,9 +20,9 @@ export default function CareersPage() {
 
       <OurExperts />
 
-      <div className="pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[100px]">
+      {/* <div className="pt-[50px] md:pt-[60px] lg:pt-[80px] xl:pt-[100px]">
         <FaqContent />
-      </div>
+      </div> */}
 
       <Footer />
     </>
