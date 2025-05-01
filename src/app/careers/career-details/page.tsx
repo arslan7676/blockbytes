@@ -5,7 +5,7 @@ import Navbar from "@/components/Layout/Navbar";
 export default function CareerDetailsPage() {
   return (
     <>
-      <div className="gradient-bg">
+      <div className="bg-[#477ef5]">
         <Navbar />
 
         <hr className="border-[#E3E3E3]" />

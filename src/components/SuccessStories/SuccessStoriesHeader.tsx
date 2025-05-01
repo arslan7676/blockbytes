@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import pageBanner3 from "/public/images/page-banner3.png";
+import pageBanner5 from "/public/images/page-banner5.jpg";
 
 const SuccessStoriesHeader = () => {
   return (
@@ -23,12 +23,12 @@ const SuccessStoriesHeader = () => {
               <p>
                 Transforming your brand's online presence and generating
                 meaningful results is our top priority at{" "}
-                <strong>Adla</strong>. As a leading paid search ad agency.
+                <strong>Blockbytes</strong>. As a leading tech agency.
               </p>
             </div>
 
             <div>
-              <Image src={pageBanner3} alt="Page Banner" />
+              <Image src={pageBanner5} alt="Page Banner" />
             </div>
           </div>
         </div>
