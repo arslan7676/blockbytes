@@ -10,13 +10,14 @@ import Navbar from "@/components/Layout/Navbar";
 export default function SuccessStoriesPage() {
   return (
     <>
-      <div className="gradient-bg">
+      <div className="bg-[#477ef5]">
         <Navbar />
 
         <hr className="border-[#E3E3E3]" />
 
         <SuccessStoriesHeader />
 
+      </div>
         <OurProcess />
 
         <SuccessStories />
@@ -27,7 +28,6 @@ export default function SuccessStoriesPage() {
 
         <TestimonialsSliderThree />
 
-      </div>
 
       <Footer />
     </>

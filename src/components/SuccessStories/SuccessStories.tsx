@@ -22,8 +22,9 @@ const SuccessStories = () => {
           <div className="grid items-center gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
             <div>
               <div className="grid gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                {/*this link add here to render fromn  to page /success-stories/success-story-details/ */}
                 <Link
-                  href="/success-stories/success-story-details/"
+                  href="javascript:void(0)"
                   className="relative block h-[290px] rounded-[20px] p-[30px] xl:p-[0px] bg-cover bg-center w-full"
                   style={{
                     backgroundImage: `url(/images/success-stories1.jpg)`,
@@ -62,7 +63,7 @@ const SuccessStories = () => {
                 </Link>
 
                 <Link
-                  href="/success-stories/success-story-details/"
+                  href="javascript:void(0)"
                   className="relative block h-[290px] rounded-[20px] p-[30px] bg-cover bg-center w-full"
                   style={{
                     backgroundImage: `url(/images/success-stories2.jpg)`,
@@ -100,7 +101,7 @@ const SuccessStories = () => {
               </div>
 
               <Link
-                href="/success-stories/success-story-details/"
+                href="javascript:void(0)"
                 className="relative block h-[290px] rounded-[20px] p-[30px] bg-cover bg-center w-full mt-[25px]"
                 style={{
                   backgroundImage: `url(/images/success-stories3.jpg)`,
@@ -139,7 +140,7 @@ const SuccessStories = () => {
 
             <div>
               <Link
-                href="/success-stories/success-story-details/"
+                href="javascript:void(0)"
                 className="relative block h-[290px] rounded-[20px] p-[30px] bg-cover bg-center w-full mb-[25px]"
                 style={{
                   backgroundImage: `url(/images/success-stories12.jpg)`,
@@ -177,7 +178,7 @@ const SuccessStories = () => {
 
               <div className="grid gap-[25px] grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
                 <Link
-                  href="/success-stories/success-story-details/"
+                  href="javascript:void(0)"
                   className="relative block h-[290px] rounded-[20px] p-[30px] xl:p-[0px] bg-cover bg-center w-full"
                   style={{
                     backgroundImage: `url(/images/success-stories13.jpg)`,
@@ -216,7 +217,7 @@ const SuccessStories = () => {
                 </Link>
 
                 <Link
-                  href="/success-stories/success-story-details/"
+                  href="javascript:void(0)"
                   className="relative block h-[290px] rounded-[20px] p-[30px] bg-cover bg-center w-full"
                   style={{
                     backgroundImage: `url(/images/success-stories14.jpg)`,
